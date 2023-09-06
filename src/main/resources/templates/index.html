@@ -221,8 +221,8 @@
         <div class="white-panel">
             <div class="login-show">
                 <h2>LOGIN</h2>
-                <input id="uname" type="text" placeholder="Email">
-                <input id="upassword" type="password" placeholder="Password">
+                <input id="uname" type="text" placeholder="Email" required>
+                <input id="upassword" type="password" placeholder="Password" required>
                 <input type="button" value="Login" onclick="userLogin();">
                 <a data-toggle="modal" data-target="#myModal" onclick="resetUserMsgFlag();">Forgot password?</a>
             </div>
@@ -230,11 +230,11 @@
                 <form id="signupform">
                     <div class="register-show">
                         <h2>REGISTER</h2>
-                        <input id="fName" name="firstName" type="text" placeholder="FirstName">
-                        <input id="lName" name="lastName" type="text" placeholder="LastName">
-                        <input id="email" name="emailAddress" type="text" placeholder="Email">
-                        <input id="mobile" name="mobileNumber" type="text" placeholder="MobileNumber">
-                        <input id="password" name="suPassword" type="password" placeholder="Password">
+                        <input id="fName" name="firstName" type="text" placeholder="FirstName" required>
+                        <input id="lName" name="lastName" type="text" placeholder="LastName" required>
+                        <input id="email" name="emailAddress" type="text" placeholder="Email" required>
+                        <input id="mobile" name="mobileNumber" type="text" placeholder="MobileNumber" required>
+                        <input id="password" name="suPassword" type="password" placeholder="Password" required>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="userTypeId" name="userTypeId" value="2">
                             <label class="form-check-label" for="userTypeId" style="
